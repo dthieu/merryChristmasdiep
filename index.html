@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon" />
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+	
+	<!-- Tải script -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/howler.min.js"></script>
+	<script type="text/javascript" src="js/typed.js"></script>
+	<script type="text/javascript" src="js/ThreeCanvas.js"></script>
+	<script type="text/javascript" src="js/Snow.js"></script>
+	<script type="text/javascript" src="js/Custom.js"></script>
+	
+</head>
+<body onLoad="loading();">
+	<!-- Hiển thị trong lúc đợi load -->
+	<div id="loading">
+		<div class="spinner">
+        </div>
+	</div>
+	<!-- Giao diện chính -->
+	<div id="wrap">
+        <!-- Hiệu ứng tuyết-->
+        <div class="snow">
+        </div>
+        <!-- Đóng băng -->
+        <div class="ice">
+        </div>
+
+        <img id="santaClaus" alt="Santa Claus" />
+
+        <div id="letter">
+        	<span class="message"></span>
+        </div>
+
+        <img id="reindeer" src="imgs/reindeer.png" alt="Reindeer" />
+	</div>
+</body>
+</html>
